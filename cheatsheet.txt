@@ -1,8 +1,3 @@
-# JavaScript_Syntax
-
-All about JavaScript and its syntax and other cool stuff
-Learning it at fastest speed I can so that I can move to React (big boy stuff)
-
 / STRING
 // string[index] - get a certain character of a string
 // string.length - return the number of characters in a string
@@ -29,7 +24,7 @@ const emojis = [ '😀', '😆', '🙃', '😍' ];
 const wavingEmojis = [];
 
 for (let i = 0; i < emojis.length; i++) {
-wavingEmojis.push(`👋${emojis[i]}👋`);
+   wavingEmojis.push(`👋${emojis[i]}👋`);
 }
 
 // forEach - array method for looping
@@ -57,9 +52,9 @@ const anotherNumbers = numbers; // #123asd
 anotherNumbers.push(5);
 
 // objects
-const person = {
-firstName: 'John',
-lastName: 'Doe'
+const person = { 
+    firstName: 'John', 
+    lastName: 'Doe' 
 };
 
 const anotherPerson = person;

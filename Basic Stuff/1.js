@@ -8,32 +8,20 @@ let currentResult = 0;
 currentResult = currentResult + 10;
 console.log(currentResult);
 
-//operators * + - / % ** = 
+//operators * + - / % ** =
 
 //Data types
 // - Numbers 2, -3, 12.123
 // - Strings 'Hi', "Hi", `Hi` (a lil special method)
 // - Booleans true/false
 // - Objects
-// - Arrays
+// - Arrays (they are also objects bruh)
+// - Null and undefined
 
 //More on strings - use double quotes for ever
 //Template literal
 console.log(`${userName} is the name of the guy who is writing the code`);
 
 //line break
-console.log('An error \n' + 'This should work no?');
+console.log("An error \n" + "This should work no?");
 // \n , \', \", \\ and many more
-
-
-
-
-
-
-
-
-
-
-
-
-

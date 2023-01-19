@@ -15,6 +15,7 @@ const defaultArgu = (a = "213", b = 123) => {
 
 //You can call a function in one way or another - simple
 //Works only for undefined!!, but if you put any other value like null, or 0 would be counted
+//Try not to have default arguments before normal arguments!!
 defaultArgu();
 defaultArgu(12312);
 defaultArgu(1, 2);
