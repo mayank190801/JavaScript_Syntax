@@ -1,5 +1,5 @@
 //Foreach method!!!
-const names = ["Mayank", "Sanvi", "Diksha", "Random"];
+// const names = ["Mayank", "Sanvi", "Diksha", "Random"];
 
 //normal
 for (let i = 0; i < names.length; i++) {
